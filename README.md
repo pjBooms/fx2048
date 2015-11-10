@@ -8,20 +8,20 @@ Building fx2048
 ====================
 
 You will need [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-and [ANT](http://ant.apache.org/) installed to build the project. Just
-execute ant in the project root.
+, [Maven](http://maven.apache.org/) and [Excelsior JET](http://www.excelsiorjet.com) installed to build the project. 
+Just execute ant in the project root.
 
 ```bash
-ant
+mvn package jet:build
 ```
 
 Running fx2048
 ===================
 
-After you've built the project you can run this with a simple java command.
+After you've built the project you can run the resulting executable
 
 ```bash
-java -jar dist/Game2048.jar
+./target/jet/app/Game2048
 ```
 
 Running 2048FX on Mobile/Tablet
