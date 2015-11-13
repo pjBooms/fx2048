@@ -12,7 +12,7 @@ You will need [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/i
 Just execute Maven in the project root.
 
 ```bash
-mvn package jet:build
+mvn jet:build
 ```
 
 Running fx2048
