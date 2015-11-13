@@ -9,7 +9,7 @@ Building fx2048
 
 You will need [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 , [Maven](http://maven.apache.org/) and [Excelsior JET](http://www.excelsiorjet.com) installed to build the project. 
-Just execute ant in the project root.
+Just execute Maven in the project root.
 
 ```bash
 mvn package jet:build
