@@ -27,9 +27,9 @@
 				</configuration>
 			</plugin>
 			<plugin>
-			    <groupId>com.excelsior</groupId>
+			    <groupId>com.excelsiorjet</groupId>
 			    <artifactId>excelsior-jet-maven-plugin</artifactId>
-			    <version>0.1.0-SNAPSHOT</version>
+			    <version>0.1.0</version>
 			    <configuration>
 			        <mainClass>game2048.Game2048</mainClass>
 					<hideConsole>true</hideConsole>
